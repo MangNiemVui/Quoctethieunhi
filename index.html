@@ -922,9 +922,9 @@
 
   <section id="loadingScreen" class="screen">
     <div class="glass">
-      <div class="badge">🎈 Demo chúc mừng</div>
+      <div class="badge">🎈chúc mừng quốc tế thiếu nhi</div>
       <h1><span class="rainbow-text">Quốc tế Thiếu nhi</span><br>1/6</h1>
-      <p class="sub">Đang chuẩn bị hộp quà, bóng bay và những lời chúc đáng yêu...</p>
+      <p class="sub">Đang chuẩn bị hộp quà.</p>
       <div class="progress-wrap"><div id="progress" class="progress"></div></div>
     </div>
   </section>
@@ -933,7 +933,7 @@
     <div class="glass upload-panel">
       <div class="badge">📸 Chọn ảnh kỷ niệm</div>
       <h1><span class="rainbow-text">Tải lên 6 ảnh</span></h1>
-      <p class="sub">Chọn đúng 6 ảnh. Web sẽ tự nhân thành 12 ảnh để ghép trái tim rõ hơn.</p>
+      <p class="sub">Chọn đúng 6 ảnh.</p>
       <input id="photoUploadInput" type="file" accept="image/*" multiple />
       <div id="uploadGrid" class="upload-grid" aria-label="Ảnh đã chọn"></div>
       <p id="uploadNote" class="upload-note">Chưa chọn ảnh nào.</p>
@@ -1001,20 +1001,21 @@
     </div>
   </section>
 
-  <div class="small-note">Mật khẩu demo: 0106</div>
+  <div class="small-note">Mật khẩu:0106</div>
 
   <script>
     const CONFIG = {
       passcode: "0106",
       usePasscode: true,
-      texts: ["1/6", "Quốc tế", "Thiếu nhi", "Bé là mặt trời nhỏ"],
+      texts: ["1/6", " Chúc mừng", "Quốc tế", "Thiếu nhi", "Bé là mặt trời nhỏ"],
       music: "assets/music/am-tham-ben-em.mp3",
       photos: [],
       letter: `Chúc bé một ngày 1/6 thật vui!
 
 Mong bé luôn khỏe mạnh, hay cười, học được nhiều điều mới và luôn được yêu thương.
+Chúc bé nhận được nhiều quà nhé,lun hạnh phúc không được uất ức.
+Chúc bé được yêu thương và được trân trọng như em bé nhé....😘😘💕`
 
-Tuổi thơ là khu vườn rất đẹp, hãy cứ hồn nhiên, trong trẻo và rực rỡ như những chiếc bóng bay trên bầu trời nhé.`
     };
 
     const loading = document.getElementById('loadingScreen');
